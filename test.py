@@ -1,12 +1,13 @@
-from payment import calculate as cal
+from new-function import get_Word as gw
 
-def test(a, b):
-    c = cal(a, b)
+def test(g):
+  
+    c = gw(g)
 
-    test_c = a + b
+    test_c = c
 
     assert c == test_c
 
-test(10, 20)
-test(1, 15)
-test(40, 150)
+test('Ponchik')
+test('Borsh')
+test('Sahar')
