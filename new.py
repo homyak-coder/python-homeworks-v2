@@ -2,8 +2,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
-def get_Word (word):
-    return word + 'NEW'
+def get_equal (a, b, c):
+    return a == (b + c)
 
 @app.route("/")
 def index():
