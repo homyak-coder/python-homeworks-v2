@@ -1,7 +1,7 @@
-from new-function import get_Word as gw
+from new import get_Word as gw
 
 def test(g):
-  
+
     c = gw(g)
 
     test_c = c
