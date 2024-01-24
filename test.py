@@ -4,9 +4,7 @@ def test(r, t, y):
 
     c = ge(r, t, y)
 
-    test_c = c
-
-    assert c == test_c
+    assert c == True
 
 test(3, 2, 1)
 test(5, 0, 5)
