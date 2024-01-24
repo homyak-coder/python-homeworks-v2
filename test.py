@@ -8,5 +8,5 @@ def test(r, t, y):
 
 test(3, 2, 1)
 test(5, 0, 5)
-test(2, 6, 7)
-test(6, 8, 8)
+test(2, 0, 1)
+test(6, 5, 1)
